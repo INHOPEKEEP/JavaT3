@@ -44,4 +44,4 @@ try {
 ![](https://github.com/INHOPEKEEP/JavaT2/blob/main/picture/2.PNG)
 
 ## 实验总结
-通过这次实验，掌握的接口的定义和使用，如果要实现接口，得实现它的所有方法，抽象类也是这样。学会使用简单的Java的异常处理，Scanner类的使用。还有理解了static final的意义，
+通过这次实验，掌握了接口的定义和使用，如果要实现接口，得实现它的所有方法，抽象类也是这样。学会使用简单的Java的异常处理，Scanner类的使用。还有理解了static final的意义，
