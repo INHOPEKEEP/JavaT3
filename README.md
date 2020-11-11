@@ -40,7 +40,7 @@ try {
 ```
 ## 实验结果
 
-![](https://github.com/INHOPEKEEP/JavaT2/blob/main/picture/1.PNG)
+![](https://github.com/INHOPEKEEP/JavaT3/blob/main/picture/T31.PNG)
 ![](https://github.com/INHOPEKEEP/JavaT2/blob/main/picture/2.PNG)
 
 ## 实验总结
