@@ -2,59 +2,32 @@
 
 ## 计G201 吴晓波
 
+## 实验目的
+
+模拟学生选课系统，输出学生选课，退课信息。
+
 ## 实验要求
 
-+ 4个类，PC,CPU,HardDisk,Test
-+ CPU类返回speed，HardDisk类返回amount，PC类show方法能显示cpu的速度和硬盘的容量
-+ 主类Test创建三个类的对象并实例化，调用方法三个类中的方法
-+ 多个构造方法，多个属性，放在不同的包中，修饰符多样化
++ 有人员，学生，教师，课程及测试类
++ 人员有编号，性别，姓名等属性，
++ 学生，教师继承人员类，另外还拥有自己特有的属性
++ 测试类，输出学生选课，退课具体信息
 
-## UML图
+## 流程图
 
-![](https://github.com/INHOPEKEEP/JavaT1/blob/main/picture/11.png)
+![](https://github.com/INHOPEKEEP/JavaT2/blob/main/picture/liuchengtu.png)
 
 ## 核心代码
-1.
 ```
-public void setSpeed(int speed) {
-        this.speed = speed;
-    }
-public int getSpeed() {
-        return speed;
-    }
+c1.caozuo();
+System.out.println("授课教师:"+t1.Name+"，性别："+t1.Sex);
+System.out.println(s1.Name+"同学以上为你的选课/选课信息。");
 ```
-2.
-```
-public void setAmount(int amount) {
-        this.amount = amount;
-    }
-public int getAmount() {
-        return amount;
-    }
-```
-3.
-```
-public void setCpu(CPU cpu) {
-        this.cpu = cpu;
-    }
 
-public void setHD(HardDisk hD) {
-        HD = hD;
-    }
-```
-4.
-```
-CPU cpu = new CPU(2200);
-
-HardDisk HD = new HardDisk(200);
-
-PC pc = new PC();
-```
 ## 实验结果
 
-![](https://github.com/INHOPEKEEP/JavaT1/blob/main/picture/20%20(2).png)
+![](https://github.com/INHOPEKEEP/JavaT2/blob/main/picture/1.PNG)
+![](https://github.com/INHOPEKEEP/JavaT2/blob/main/picture/2.PNG)
 
 ## 实验总结
-
-通过这次实验掌握了，不同修饰符对方法和属性的作用与范围，
-get，set方法，包的封装，创建并实例化对象，通过创建对象调用类的方法和属性
+通过这次实验，我学会了类与类之间的继承，掌握了继承的基本用法，知道了一个子类只能继承一个父类等知识点。但是这次实验实现的功能比较单一，我知道得学习更多的知识，实现更多的功能。
