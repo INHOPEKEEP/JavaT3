@@ -4,14 +4,14 @@
 
 ## 实验目的
 
-学会抽象类和接口的定义与实现，还有异常处理。
+学会抽象类和接口的定义与实现，还有java的异常处理机制。
 
 ## 实验要求
 
-* 有人员，学生，教师，课程及测试类
-* 人员有编号，性别，姓名等属性，
-* 学生，教师继承人员类，另外还拥有自己特有的属性
-* 测试类，输出学生选课，退课具体信息
+* 设计老师管理与学生管理两个接口，分别有查薪水，发放薪水，缴纳学费，查学费等方法
+* 设计博士生类，实现上述两个接口，并详细化接口的方法
+* 该博士生类具有姓名，性别，年龄，每学期学费，每月薪水等属性，
+* 测试类，实例化至少两个博士类，拥有统计年收入，年学费，计算两者之差，年缴税等的方法，最后输出信息
 
 ## 流程图
 
@@ -19,11 +19,25 @@
 
 ## 核心代码
 ```
-c1.caozuo();
-System.out.println("授课教师:"+t1.Name+"，性别："+t1.Sex);
-System.out.println(s1.Name+"同学以上为你的选课/选课信息。");
+Scanner sc = new Scanner(System.in);
+Scanner sc2 = new Scanner(System.in);
+dc.name=sc.next();
+dc.age=sc.nextInt();
+dc.sex=sc.next();
+dc.sal=sc.nextFloat();
+dc.tu=sc.nextFloat();
 ```
-
+```
+try {
+            t.catM(dc1);
+            //System.out.println("\n");
+            System.out.println("-----------------------------------------------");
+            System.out.println("-----------------------------------------------");
+            t.catM(dc2);}
+        catch (Exception e){
+            System.out.println("输入有误，请按规则输入！");
+        }
+```
 ## 实验结果
 
 ![](https://github.com/INHOPEKEEP/JavaT2/blob/main/picture/1.PNG)
