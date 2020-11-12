@@ -13,10 +13,6 @@
 * 该博士生类具有姓名，性别，年龄，每学期学费，每月薪水等属性，
 * 测试类，实例化至少两个博士类，拥有统计年收入，年学费，计算两者之差，年缴税等的方法，最后输出信息
 
-## 流程图
-
-![](https://github.com/INHOPEKEEP/JavaT2/blob/main/picture/liuchengtu.png)
-
 ## 核心代码
 ```
 Scanner sc = new Scanner(System.in);
